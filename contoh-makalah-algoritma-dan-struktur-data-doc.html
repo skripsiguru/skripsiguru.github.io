@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Makalah Algoritma Dan Struktur Data Doc - BELAJAR</title>
+    <meta name="description" content="Contoh Makalah Algoritma Dan Struktur Data Doc, , , , , , , 0, , , , , , 0, contoh-makalah-algoritma-dan-struktur-data-doc, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Makalah Algoritma Dan Struktur Data Doc - BELAJAR" />
+    <meta property="og:description" content="Contoh Makalah Algoritma Dan Struktur Data Doc, , , , , , , 0, , , , , , 0, contoh-makalah-algoritma-dan-struktur-data-doc, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Makalah Algoritma Dan Struktur Data Doc - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Makalah Algoritma Dan Struktur Data Doc, , , , , , , 0, , , , , , 0, contoh-makalah-algoritma-dan-struktur-data-doc, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://skripsiguru.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://skripsiguru.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://skripsiguru.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://skripsiguru.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://skripsiguru.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://skripsiguru.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://skripsiguru.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://skripsiguru.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://skripsiguru.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://skripsiguru.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Makalah Algoritma Dan Struktur Data Doc</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">amfaqyou02</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Makalah+Algoritma+Dan+Struktur+Data+Doc" alt="Contoh Makalah Algoritma Dan Struktur Data Doc">
+                    </div>
+                    <p></p>
+                    <p>bantuin!!!kasi saran judul buat makalah dong tentang pelajaran algoritma dan struktur data​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bantuinkasi-saran-judul-buat-makalah-dong-tentang-pelajaran-algoritma-dan-struktur-data%e2%80%8b">1.
+                                            bantuin!!!kasi saran judul buat makalah dong tentang pelajaran algoritma dan struktur data​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-manfaat-struktur-data-dan-algoritma">2.
+                                            Apa manfaat struktur data dan algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#progam-adalah-a-profamalgoritma-data-textb-progamalgoritma-animasi-audioc-progamalgoritmastruktur-datad-progamalgoritmadata-table">3.
+                                            Progam adalah...
+A.profam=algoritma + data text
+B. Progam=algoritma + animasi + audio
+C. Progam=algoritma+struktur data
+D. Progam=algoritma+data table</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-makalah-tentang-struktur-dan-fungsi-sel%e2%80%8b">4.
+                                            contoh makalah tentang struktur dan fungsi sel​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-algoritma-dan-struktur-data-berikan-conthnya">5.
+                                            apa yang dimaksud dengan algoritma dan struktur data ? berikan conthnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-struktur-algoritma-berurutan">6.
+                                            contoh struktur algoritma berurutan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#struktur-data-buatlah-program-algoritma-searching">7.
+                                            Struktur Data : Buatlah program algoritma searching?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-saja-yang-di-perlakukan-pada-pembuatan-makalah-sebutkan-struktur-makalah%e2%80%8b">8.
+                                            apa saja yang di perlakukan pada pembuatan makalah, sebutkan struktur makalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menurut-anda-struktur-data-linklist-dan-pohon-biner-lebih-efektif-untukpermasalahan-algoritma-aplikasi-program-seperti-apa-jelaskan-dan-berikan-contohkonkrit">9.
+                                            Menurut anda! Struktur data linklist dan pohon biner lebih efektif untukpermasalahan algoritma (aplikasi program) seperti apa? Jelaskan dan berikan contohkonkrit!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bantuinkasi-saran-judul-proposal-dong-tentang-pelajaran-algoritma-dan-struktur-data%e2%80%8b">10.
+                                            bantuin!!!kasi saran judul proposal dong tentang pelajaran algoritma dan struktur data​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#quiz1-jenis-jenis-sorting-algoritma-beserta-contoh2-contoh-dan-pengertian-struktur-data-linier-dan-non-linier%e2%80%8b">11.
+                                            Quiz1. Jenis jenis Sorting algoritma beserta contoh2. Contoh, dan  Pengertian  struktur Data Linier dan Non Linier​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskanlah-dengan-contoh-kasus-algoritma-yang-memiliki-struktur-percabangan%e2%80%8b">12.
+                                            Jelaskanlah dengan contoh kasus algoritma yang memiliki struktur percabangan​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-saran-untuk-makalah-tentang-algoritma-chiper-blok%e2%80%8b">13.
+                                            berikan contoh saran untuk makalah tentang algoritma chiper blok​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-menurut-anda-hubungan-struktur-data-dan-algoritma%e2%80%8b">14.
+                                            jelaskan menurut anda  hubungan struktur data dan algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-perbedaan-top-dan-top-pada-struktur-data-dan-algoritma">15.
+                                            apa perbedaan top++ dan ++top pada struktur data dan algoritma?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pemakaian-struktur-data-yang-tepat-di-dalam-proses-pemrograman-akan-menghasilkan-algoritma-yang">16.
+                                            Pemakaian struktur data yang tepat di dalam proses pemrograman akan menghasilkan algoritma yang? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pada-bagian-terdiri-atas-nama-algoritma-dan-penjelasan-spesifikasi-tentang-algoritma-a-judulb-deklarasic-deskripsid-struktur-data%e2%80%8b">17.
+                                            pada bagian....terdiri atas nama algoritma dan penjelasan (spesifikasi) tentang algoritma.a. judulb. deklarasic. deskripsid. struktur data​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-saja-struktur-daftar-pustaka-di-makalah-dan-berikan-contohnya-jangan-ngasal%e2%80%8b">18.
+                                            apa saja struktur daftar Pustaka di makalah dan berikan contohnya jangan ngasal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-struktur-makalah">19.
+                                            bagaimana struktur makalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-data-penjualan-obat-algoritma">20.
+                                            contoh data penjualan obat algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-tek-laporan-yang-berbentuk-seperti-makalah-dengan-struktur-tek-laporan-yang-lengkap">21.
+                                            contoh tek laporan yang berbentuk seperti makalah dengan struktur tek laporan yang lengkap</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-contoh-algoritma-struktur-pengulangan">22.
+                                            Sebutkan contoh algoritma struktur pengulangan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-dari-struktur-dari-algoritma-pemilihan">23.
+                                            Contoh dari struktur dari algoritma pemilihan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-rumusan-makalah-dan-hipotesis-serta-tujuan-analisis-data">24.
+                                            Berikan contoh rumusan makalah dan hipotesis serta tujuan analisis data.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-contoh-struktur-algoritma">25.
+                                            Buat Contoh Struktur Algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-dengan-contoh-kasus-algoritma-yang-memiliki-struktur-runtutan-%e2%80%8b">26.
+                                            Jelaskan dengan contoh kasus algoritma yang memiliki struktur runtutan ! ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-makalah-tentang-logika-dan-algoritma%e2%80%8b">27.
+                                            buatlah makalah tentang logika dan algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berkan-contoh-algoritma-dengan-struktur-yang-lengkap">28.
+                                            berkan contoh algoritma dengan struktur yang lengkap</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-dengan-contoh-tentang-kasus-algoritma-yang-memiliki-struktur-runtunan">29.
+                                            Jelaskan dengan contoh tentang kasus algoritma yang memiliki struktur runtunan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan3-struktur-algoritma-dan-jelaskan-beserta-contohnya">30.
+                                            sebutkan3 struktur algoritma dan jelaskan beserta contohnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perhatikan-algoritma-berikut-tipe-data-yang-cocok-untuk-ekspresi-hari-pada-struktur-case-adalah-%c2%a0%e2%80%8b">31.
+                                            Perhatikan algoritma berikut. Tipe data yang cocok untuk ekspresi hari pada struktur case adalah ..... *​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-mendeklrasikan-pada-struktur-algoritma-yang-terdiri-dari-bagian-kepala-deklarasi-dan-bagian-algoritma">32.
+                                            Berikan contoh mendeklrasikan pada struktur algoritma yang terdiri dari bagian kepala, deklarasi, dan bagian algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-terlintas-di-pikiranmu-ketika-mendengar-algoritma-dan-struktur-data-uraikan%e2%80%8b">33.
+                                            apa yang terlintas di pikiranmu ketika mendengar "algoritma" dan "struktur data", uraikan!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikut-ini-yang-bukan-termasuk-struktur-data-dalam-algoritma%e2%80%8b">34.
+                                            Berikut ini yang bukan termasuk Struktur data dalam algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-dengan-contoh-tentang-kasus-algoritma-yang-memiliki-struktur-runtunan%e2%80%8b">35.
+                                             jelaskan dengan contoh tentang kasus algoritma yang memiliki struktur runtunan​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-contoh-penggunaan-variabel-dan-tipe-data-dalam-algoritma">36.
+                                            Sebutkan contoh penggunaan variabel dan tipe data dalam algoritma!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-yang-menggunakan-konstruksi-perulangan-yang-terkadang-memiliki-data-tambahan-pada-struktur-yang-dibuat-disebut-algoritma%e2%80%8b">37.
+                                            algoritma yang menggunakan konstruksi perulangan yang terkadang memiliki data tambahan pada struktur yang dibuat disebut algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#mengatur-rangkaian-pekerjaan-agar-efektif-dan-efisien-merupakan-contoh-dari-berpikir-komputasional-yaitu-a-optimasi-penjadwalan-b-algoritma-c-struktur-data-d-representasi-data%e2%80%8b">38.
+                                            Mengatur rangkaian pekerjaan agar efektif dan efisien merupakan contoh dari berpikir komputasional yaitu... a. Optimasi penjadwalan b. Algoritma c. Struktur data d. Representasi data​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-lah-contoh-algoritma-lalu-tentukan-variabel-dan-tipe-datanya%e2%80%8b">39.
+                                            Buat lah contoh algoritma, lalu tentukan variabel dan tipe datanya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengenalan-variabel-dan-tipe-data-dasar-struktur-algoritma">40.
+                                            Jelaskan pengenalan variabel dan tipe data dasar struktur algoritma</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="bantuinkasi-saran-judul-buat-makalah-dong-tentang-pelajaran-algoritma-dan-struktur-data%e2%80%8b">
+                            1. bantuin!!!kasi saran judul buat makalah dong tentang pelajaran algoritma dan struktur data​</h2><br />
+                        <p>1. "Algoritma dan Struktur Data: Dasar Pemrograman Efisien"</p><p>2. "Menguasai Algoritma dan Struktur Data untuk Performa Optimal"</p><p>3. "Exploring Algorithms and Data Structures: Efficiency and Optimization"</p><p>4. "Fundamentals of Algorithms and Data Structures"</p><p>5. "Implementing Efficient Algorithms and Data Structures"</p><p>6. "Algorithms and Data Structures: Enhancing Programming Skills"</p><p>7. "Optimizing Performance: Algorithms and Data Structures"</p><p>8. "Algorithmic Problem Solving with Data Structures"</p><p>9. "Understanding Algorithms and Data Structures: A Practical Approach"</p><p>10. "Algorithms and Data Structures: Building Blocks of Programming"</p><br />
+                                            <h2 class="ez-toc-section" id="apa-manfaat-struktur-data-dan-algoritma">
+                            2. Apa manfaat struktur data dan algoritma</h2><br />
+                        Pemakaian struktur data yang tepat di dalam proses pemrograman akan menghasilkan   algoritma   yang lebih jelas dan tepat, sehingga menjadikan program secara keseluruhan lebih efisien dan sederhana.<br />
+                                            <h2 class="ez-toc-section" id="progam-adalah-a-profamalgoritma-data-textb-progamalgoritma-animasi-audioc-progamalgoritmastruktur-datad-progamalgoritmadata-table">
+                            3. Progam adalah...
+A.profam=algoritma + data text
+B. Progam=algoritma + animasi + audio
+C. Progam=algoritma+struktur data
+D. Progam=algoritma+data table</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>C. Program = algoritma + struktur data</p><p><strong>Penjelasan:</strong></p><p></p><p><strong>PROGRAM</strong> adalah buku tahun 1976 yang ditulis oleh Niklaus Wirth yang membahas beberapa topik mendasar pemrograman komputer, terutama yang terkait dengan algoritma dan struktur data.</p><p><strong>Penjelasan:</strong></p><p>Progam adalah...</p><p>A.profam=algoritma + data text</p><p>B. Progam=algoritma + animasi + audio</p><p>C. Progam=algoritma+struktur data</p><p>D. Progam=algoritma+data table</p><p></p><p>Jawab = C. Progam=algoritma+struktur data</p><p></p><p>Semoga bermanfaat </p><br />
+                                            <h2 class="ez-toc-section" id="contoh-makalah-tentang-struktur-dan-fungsi-sel%e2%80%8b">
+                            4. contoh makalah tentang struktur dan fungsi sel​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Sel Prokariotik:</p><p>Memiliki membran inti (materi genetik berada di inti sel)</p><p>Memiliki sistem endomembran (organel bermembran)</p><p>Terdapat pada kingdom Protista, Fungi, Plantae, dan Animalia</p><p></p><p>Sel Eukariotik:</p><p>Tidak memiliki dinding sel dan plastida</p><p>Memiliki vakuola namun ukurannya tidak besar seperti pada vakuola sel tumbuhan</p><p>Tidak memilki bentuk yang tetap</p><p>Memiliki 2 sentriol didalam sentrosol</p><p>Memiliki flagel</p><p></p><p>Sel tumbuhan: </p><p>Memiliki dinding sel, plastida, dan vakuola</p><p>Memiliki bentuk yang tetap</p><p>Tidak memiliki Sentrosom dan sentriol</p><p>Tidak memiliki flagel</p><p></p><p>Sel Hewan:</p><p>Tidak memiliki dinding sel dan plastida</p><p>Memiliki vakuola namun ukurannya tidak besar seperti pada vakuola sel tumbuhan</p><p>Tidak memilki bentuk yang tetap</p><p>Memiliki 2 sentriol didalam sentrosol</p><p>Memiliki flagel</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-algoritma-dan-struktur-data-berikan-conthnya">
+                            5. apa yang dimaksud dengan algoritma dan struktur data ? berikan conthnya</h2><br />
+                        ALGORITMA adalah urutan <br />atau langkah langkah untuk penghitungan atau untuk <br />menyesaikan suatu masalah <br />yang ditulis secara berurutan<br /><br />struktur data adalahcara penyimpanan,penyusunan,dan pengaturan data didalam media penyimpanan komputerAlgoritma adalah urutan langkah untuk menyelesaikan masalah secara sistematis dan logis. Algoritma menawarkan suatu metode dalam menyelesaikan sebuah permasalahan. Algoritma diartikan sebagai urutan langkah dalam menyelesaikan masalah secara sistematis dan logis. Pendekatan secara sistematis dan logis tersebut, menjadikan proses penyelesaian masalah terjaga kebenarannya karena algoritma hendaklah benar agar dapat menghasilkan keluaran/solusi yang benar pula. Penyelesaian masalah(problem solving) adalah kegiatan utama yang dilakukan dalam menyelesaiakan sesuatu. Adapun langkah-langkah Problem Solving adalah sebagai berikut :<br /><br />Mengidentifikasi masalah<br /><br />Desain<br /><br />Algoritma<br /><br />Pembuatan program<br /><br />Pengujian<br /><br />Pemeliharaan<br /><br />Algoritma biasa ditulis dalam bentuk pseudo code. Perhatikan contoh berikut ini:<br />Carilah luas persegi panjang jika diketahui x sebagai nilai panjang dan y sebagai nilai lebar.<br /><br />panjang ← masukkan x sebagai nilai panjang<br /><br />lebar ← masukkan y sebagai nilai lebar<br /><br />luas ← panjang * lebar<br /><br />Tulis luas<br /><br />Tentukan bilangan masukan berikut sebagai bilangan postif, negatif atau nol.<br /><br />Bilangan ← bilangan yang akan diuji<br /><br />If bilangan &gt; 0 then tulis “Bilangan Positif”<br /><br />If bilangan &lt; 0 then tulis “ Bilangan Negatif”<br /><br />Tulis “Nol”<br /><br />Tampilkan tulisan “Selamat Belajar” sebanyak 10 kali<br /><br />x ← masukkan nilai perulangan<br /><br />i ← 1<br /><br />Jika i &lt;= x, tulis “Selamat Belajar”<br /><br /><br />2. Struktur Data<br /><br />Struktur data adalah suatu pengelolaan data sehingga data dapat dipergunakan secara lebih efisien dan efektif. Dalam bahasa pemrograman, struktur data seringkali ditampakkan secaa fisik dalam bentuk tabel (biasanya pada bahasa pemrograman/pengelolaan database berbasis visual), namun pada beberapa bahasa pemrograman yang tidak berbasis visual, strutkur data lebih berupa pengelolaan data dengan aturan-aturan tertentu. Beberapa konsep pengelolaan data sederhana adalah sebagai berikut :<br /><br />
+                                            <h2 class="ez-toc-section" id="contoh-struktur-algoritma-berurutan">
+                            6. contoh struktur algoritma berurutan</h2><br />
+                        1. alogb = c bisa berarti a^{c} = b<br />2. nlogn = 1<br />3. [c]log
+[a . b] = c log a + c log b<br />4. clog a = c log a - c log b<br />           b<br />5. c log a^{b} = b. c log a<br />6 bloga . alogc = blogc<br />7. bloga = cloga<br />                clogb<br />8. alogb =     1     <br />                bloga<br />9.a^{m}logb^{n} = n  alogb<br />                         m<br />10. A alogb = b<br />11. alog1 = 0<br /><br />
+                                            <h2 class="ez-toc-section" id="struktur-data-buatlah-program-algoritma-searching">
+                            7. Struktur Data : Buatlah program algoritma searching?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Why is your skin important?</p><p>Unit</p><p>2</p><p>Read the explanation text. Underline the main point in paragraphs 2,</p><p>Practice 8</p><p>3 and 4. Then write a conclusion for the text.</p><p>is because your whole body is covered with skin. Why do you have so</p><p>Did you know that your skin weighs twice the weight of your brain? This</p><p>much skin?</p><p>Your skin protects the vital organs of</p><p>your body. It provides a barrier so</p><p>that your organs, for example, your</p><p>heart, lungs, stomach and liver,</p><p>are protected.</p><p>Your skin also keeps bacteria out of</p><p>your body. Bacteria are small living</p><p>things that you can't see. Without</p><p>skin, bacteria can get into your body</p><p>and make you ill. So, when you cut yourself, you should clean the wound</p><p>and cover it carefully. Then bacteria can't enter your body.</p><p>Your skin protects the water in your body too. Did you know that more</p><p>than half your body is made up of water? Your skin helps to retain the</p><p>water in your body, and you don't become dehydrated.</p><p>Conclusion:</p><p>24</p><p><strong>Penjelasan:</strong></p><p>Why is your skin important?</p><p>Unit</p><p>2</p><p>Read the explanation text. Underline the main point in paragraphs 2,</p><p>Practice 8</p><p>3 and 4. Then write a conclusion for the text.</p><p>is because your whole body is covered with skin. Why do you have so</p><p>Did you know that your skin weighs twice the weight of your brain? This</p><p>much skin?</p><p>Your skin protects the vital organs of</p><p>your body. It provides a barrier so</p><p>that your organs, for example, your</p><p>heart, lungs, stomach and liver,</p><p>are protected.</p><p>Your skin also keeps bacteria out of</p><p>your body. Bacteria are small living</p><p>things that you can't see. Without</p><p>skin, bacteria can get into your body</p><p>and make you ill. So, when you cut yourself, you should clean the wound</p><p>and cover it carefully. Then bacteria can't enter your body.</p><p>Your skin protects the water in your body too. Did you know that more</p><p>than half your body is made up of water? Your skin helps to retain the</p><p>water in your body, and you don't become dehydrated.</p><p>Conclusion:</p><p>24</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-saja-yang-di-perlakukan-pada-pembuatan-makalah-sebutkan-struktur-makalah%e2%80%8b">
+                            8. apa saja yang di perlakukan pada pembuatan makalah, sebutkan struktur makalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.Cover</p><p>2.Abstrak</p><p>3.Daftar isi</p><p>4.Kata pengantar</p><p>5.Pendahuluan </p><p>6.Latar belakang</p><p>7.Rumusan masalah</p><p>8.Tujuan pembahasan</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="menurut-anda-struktur-data-linklist-dan-pohon-biner-lebih-efektif-untukpermasalahan-algoritma-aplikasi-program-seperti-apa-jelaskan-dan-berikan-contohkonkrit">
+                            9. Menurut anda! Struktur data linklist dan pohon biner lebih efektif untukpermasalahan algoritma (aplikasi program) seperti apa? Jelaskan dan berikan contohkonkrit!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Permasalahan yang lebih efektif untuk menggunakan struktur data linked list adalah ketika kita perlu melakukan operasi seringkali pada elemen-elemen data yang terletak di tengah atau di akhir susunan. Linked list memungkinkan penambahan atau penghapusan elemen di posisi manapun dengan kompleksitas waktu yang konstan yaitu O(1). Contoh konkretnya adalah implementasi stack atau queue dengan menggunakan linked list. Saat kita menambahkan atau menghapus elemen dari tumpukan atau antrian kita hanya perlu menyesuaikan beberapa referensi pointer tanpa melakukan pergeseran elemen-elemen lainnya.</p><p></p><p>Sementara itu pohon biner lebih efektif untuk memecahkan permasalahan yang melibatkan hierarki atau ketergantungan antara elemen data. Pohon biner memiliki sifat yang memungkinkan kita untuk mengorganisir data dalam struktur hirarkis dengan efisien. Contoh konkret penggunaan pohon biner adalah dalam struktur data seperti pohon pencarian biner (binary search tree) yang digunakan untuk menyimpan dan mencari data dengan efisien. Pada pohon pencarian biner setiap elemen data diurutkan berdasarkan nilai kunci (key) dan memungkinkan akses dengan kompleksitas waktu rata-rata O(log n di mana n adalah jumlah elemen dalam pohon.</p><p></p><p>Secara umum kedua struktur data ini memiliki kelebihan masing-masing tergantung pada permasalahan yang dihadapi. Linked list cocok ketika kita perlu operasi penambahan atau penghapusan yang sering dilakukan sedangkan pohon biner lebih cocok untuk memecahkan permasalahan yang melibatkan hierarki atau urutan tertentu.</p><br />
+                                            <h2 class="ez-toc-section" id="bantuinkasi-saran-judul-proposal-dong-tentang-pelajaran-algoritma-dan-struktur-data%e2%80%8b">
+                            10. bantuin!!!kasi saran judul proposal dong tentang pelajaran algoritma dan struktur data​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Tentu! Berikut adalah beberapa saran judul proposal tentang pelajaran algoritma dan struktur data:</p><p></p><p>-Analisis Kinerja Algoritma Pencarian pada Struktur Data Binary Search Tree</p><p>-Implementasi Algoritma Graf pada Pemodelan Jaringan Sosial</p><p>-Penerapan Algoritma Divide and Conquer dalam Pengurutan Data Besar</p><p>-Optimasi Algoritma Pencarian pada Struktur Data Hash Table</p><p>-Analisis Efisiensi Algoritma Sorting pada Struktur Data Linked List</p><p>-Penerapan Algoritma Dynamic Programming pada Penyelesaian Masalah Knapsack</p><p>-Perbandingan Algoritma Pencarian pada Struktur Data Array dan Binary Search Tree</p><p>-Implementasi Algoritma Backtracking pada Penyelesaian N-Queens Problem</p><p>-Analisis Kompleksitas Algoritma Pencarian pada Struktur Data Trie</p><p>-Penerapan Algoritma Dijkstra pada Rute Terpendek dalam Graf Berbobot</p><p></p><p><strong>Penjelasan:</strong></p><p>Pastikan judul proposal tersebut sesuai dengan minat dan keahlian Anda dalam pelajaran algoritma dan struktur data. Juga, pastikan untuk mempertimbangkan ketersediaan sumber daya dan waktu yang ada dalam menyelesaikan proyek. Selamat menulis proposal!</p><br />
+                                            <h2 class="ez-toc-section" id="quiz1-jenis-jenis-sorting-algoritma-beserta-contoh2-contoh-dan-pengertian-struktur-data-linier-dan-non-linier%e2%80%8b">
+                            11. Quiz1. Jenis jenis Sorting algoritma beserta contoh2. Contoh, dan  Pengertian  struktur Data Linier dan Non Linier​</h2><br />
+                        <p> </p><p></p><p>1. Jenis-jenis Sorting</p><p></p><p>Bubble Sort.</p><p></p><p>Insertion Sort. </p><p></p><p>Merge Sort. </p><p></p><p>Quick Sort. </p><p></p><p>Selection Sort. </p><p></p><p>Shell Sort</p><p></p><p>Cuman Tau Nya No 1 Doang :)</p><p><strong>Jawaban:</strong></p><p>Bantu Jawab Ya Kak </p><p></p><p>1. Jenis-Jenis Sorting Algorithm :</p><p></p><p>    Bubble Sort </p><p>    Insertion Sort</p><p>    Merge Sort</p><p>    Quick Sort</p><p>    Selection Sort</p><p>    Shell Sort</p><p></p><p>2. Kurang tau ya Kak Maaf :)</p><p>     </p><p>    </p><br />
+                                            <h2 class="ez-toc-section" id="jelaskanlah-dengan-contoh-kasus-algoritma-yang-memiliki-struktur-percabangan%e2%80%8b">
+                            12. Jelaskanlah dengan contoh kasus algoritma yang memiliki struktur percabangan​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>contoh struktur kasus if percabangan</p><p>menentukan grade nilai</p><p>80-100 = A</p><p>70-79 = B</p><p>60-69 = C</p><p>40-59 = D</p><p>0-39 = E</p><p><strong>Penjelasan:</strong></p><p>if nilai &gt;=80 and nilai &lt;=100 then</p><p>     grade = A</p><p>else</p><p>     if nilai &gt;=70 and nilai &lt;80 then</p><p>          grade = B</p><p>     else               </p><p>          if nilai &gt;=60 and nilai &lt;70 then</p><p>               grade = C</p><p>          else</p><p>               if nilai &gt;=40 and nilai &lt;60 then</p><p>                    grade = D</p><p>               else</p><p>                    grade = E</p><p></p><p>semoga membantu </p><p>                   </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-saran-untuk-makalah-tentang-algoritma-chiper-blok%e2%80%8b">
+                            13. berikan contoh saran untuk makalah tentang algoritma chiper blok​</h2><br />
+                        <p>Beberapa contoh saran untuk makalah tentang algoritma cipher blok:</p>Tinjau sejarah perkembangan algoritma cipher blok, mulai dari algoritma klasik seperti algoritma Caesar dan Vigenere hingga algoritma modern seperti DES, AES, dan Blowfish. Jelaskan bagaimana algoritma-algoritma ini dikembangkan dan apa kelemahan dan kelebihan masing-masing.Analisis kinerja dan keamanan dari algoritma cipher blok yang paling populer saat ini, seperti AES (Advanced Encryption Standard), dengan membandingkan kinerjanya dengan algoritma lainnya dalam berbagai aspek, seperti kecepatan, kekuatan enkripsi, dan kinerja pada perangkat keras yang berbeda.Teliti keamanan algoritma cipher blok dan upaya-upaya yang dilakukan untuk menghindari serangan terhadap algoritma tersebut. Bahas metode-metode serangan yang umum digunakan pada algoritma cipher blok dan bagaimana algoritma-algoritma ini mengatasi serangan tersebut, misalnya dengan teknik enkripsi tambahan, seperti S-boxes atau fungsi hash.Evaluasi keamanan dari beberapa implementasi algoritma cipher blok dalam lingkungan keamanan yang berbeda, seperti di lingkungan jaringan atau dalam lingkungan mobile. Tinjau kelemahan-kelemahan masing-masing implementasi dan cara mengatasinya.Tinjau penggunaan algoritma cipher blok dalam konteks keamanan data dalam jaringan, seperti pengiriman data melalui VPN, aplikasi web, atau email. Bahas cara-cara penggunaan algoritma cipher blok pada protokol keamanan, seperti SSL/TLS dan IPSec, dan pentingnya enkripsi dalam menjaga keamanan data saat transit.Bahas perkembangan terkini dalam algoritma cipher blok dan cara-cara yang digunakan untuk mengembangkan algoritma cipher blok baru. Tinjau algoritma-algoritma cipher blok generasi baru yang sedang dalam pengembangan atau telah dirilis, seperti ChaCha20, GOST, dan Simon.Tinjau aplikasi praktis dari algoritma cipher blok dalam industri, seperti di bidang perbankan, kriptografi, dan keamanan informasi. Jelaskan mengapa algoritma cipher blok sangat penting dalam menjaga keamanan data pada lingkungan tersebut dan bagaimana cara-cara penggunaannya dalam praktik sehari-hari.<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-menurut-anda-hubungan-struktur-data-dan-algoritma%e2%80%8b">
+                            14. jelaskan menurut anda  hubungan struktur data dan algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p> Algoritma yang baik tanpa pemilihan struktur data yang tepat akan membuat program menjadi kurang baik, demikian juga sebaliknya. Hal ini sama juga dengan algoritma, yang memungkinkan suatu permasalahan dipecahkan dengan metode dan logika yang berlainan.</p><p></p><p>semoga bermanfaat</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-perbedaan-top-dan-top-pada-struktur-data-dan-algoritma">
+                            15. apa perbedaan top++ dan ++top pada struktur data dan algoritma?</h2><br />
+                        top++ ditulis nilainya dulu baru hasilnya<br />++top langsung ditulis hasilnya <br />
+                                            <h2 class="ez-toc-section" id="pemakaian-struktur-data-yang-tepat-di-dalam-proses-pemrograman-akan-menghasilkan-algoritma-yang">
+                            16. Pemakaian struktur data yang tepat di dalam proses pemrograman akan menghasilkan algoritma yang? </h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Penggunaan struktur data yang tepat sekaligus baik dalam proses pemrograman akan menghasilkan algoritma yang baik. Allahu a'lam.</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pada-bagian-terdiri-atas-nama-algoritma-dan-penjelasan-spesifikasi-tentang-algoritma-a-judulb-deklarasic-deskripsid-struktur-data%e2%80%8b">
+                            17. pada bagian....terdiri atas nama algoritma dan penjelasan (spesifikasi) tentang algoritma.a. judulb. deklarasic. deskripsid. struktur data​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>C. Deskripsi.</p><p></p><p>21 Nov 2022</p><p><strong>Jawaban:</strong></p><p><strong>C.</strong><strong> </strong><strong>deskripsi</strong></p><p><strong>penjelasan:</strong></p><p><strong>maaf </strong><strong>kalau </strong><strong>salah</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-saja-struktur-daftar-pustaka-di-makalah-dan-berikan-contohnya-jangan-ngasal%e2%80%8b">
+                            18. apa saja struktur daftar Pustaka di makalah dan berikan contohnya jangan ngasal​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p></p><p>Penulisan Daftar Pustaka dari Artikel dalam Jurnal, Skripsi, dan Makalah</p><p>Tidak berbeda jauh dengan penulisan dari sumber berupa buku, yang perlu dicantumkan dalam daftar pustaka dari artikel dalam jurnal, skripsi, dan makalah adalah nama penulis, tahun terbit, judul artikel, kota, dan nama penerbit. Hanya saja, ada perbedaan penulisan untuk beberapa urutan tersebut, yakni sebagai berikut.</p><p></p><p>1. Nama</p><p>Pastikan nama yang Sobat tulis dalam daftar pustaka adalah penulis artikelnya, bukan editor dari jurnal, koran, ataupun majalah yang menjadi sumber referensi.</p><p></p><p>2. Judul</p><p>Penulisan judul tidak menggunakan format italic, melainkan tegak lurus dengan pemberian tanda kutip (“) pembuka dan penutup. Setelah itu, lanjutkan dengan penulisan sumber jurnal ataupun majalah yang memuat artikel tersebut. Penulisan nama jurnal, majalah, atau koran dalam cetak miring. Kutipan nomor halaman artikel yang dimuat ditulis dalam tanda kurung [(…)].</p><p></p><p></p><p>contohnya</p><p>Intan Novia. 2019. Pengaruh Media Sosial Terhadap Tingkat Kemalasan Mahasiswa. Makalah.</p><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-struktur-makalah">
+                            19. bagaimana struktur makalah</h2><br />
+                        struktur makalah adalah seperti buku<br />
+                                            <h2 class="ez-toc-section" id="contoh-data-penjualan-obat-algoritma">
+                            20. contoh data penjualan obat algoritma</h2><br />
+                        <p>Ini Mungkin lebih bagus</p><p>https://kelompok23itbseamolecb5.wordpress.com/2011/12/12/aplikasi-penjualan-obat-untuk-apotek-project-uts-2/</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-tek-laporan-yang-berbentuk-seperti-makalah-dengan-struktur-tek-laporan-yang-lengkap">
+                            21. contoh tek laporan yang berbentuk seperti makalah dengan struktur tek laporan yang lengkap</h2><br />
+                        tek laporan yang berbentuk seperti makalah adalah kliping<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-contoh-algoritma-struktur-pengulangan">
+                            22. Sebutkan contoh algoritma struktur pengulangan</h2><br />
+                        for (int i=0;i&lt;6;i++)<br />{<br />cout&lt;&lt;"baris ke :"&lt;&lt;i&lt;&lt;endl;<br />}<br /><br /><br />#semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="contoh-dari-struktur-dari-algoritma-pemilihan">
+                            23. Contoh dari struktur dari algoritma pemilihan</h2><br />
+                        <p></p><p><strong>Penjelasan:</strong></p><p></p><p>bener nggak sihh</p><p></p><p></p><p>maaf kalau salah:v</p><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-rumusan-makalah-dan-hipotesis-serta-tujuan-analisis-data">
+                            24. Berikan contoh rumusan makalah dan hipotesis serta tujuan analisis data.</h2><br />
+                        Rumusan<br />Bagaimana pengaruh yang ditimbulkan dari letusan gunung merapi terhadap komposisi tanah?<br /><br />Hipotesis<br />Tanah akan semakin subur akibat meningkatnya kadar mineral dan nutrisi yang dibawa pasca letusan gunung merapi.<br /><br />Tujuan Analisis<br />Untuk membuktikan kebenaran hipotesis yang telah ditentukan.<br /><br />Semangat belajar yah ^ ^<br />Kejujuran yang utama yah !<br />
+                                            <h2 class="ez-toc-section" id="buat-contoh-struktur-algoritma">
+                            25. Buat Contoh Struktur Algoritma</h2><br />
+                        Contoh Struktur Algoritma ada 3, yaitu : struktur Sekuensial (runtunan), Struktur Seleksi, dan Struktur Perulangan<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-dengan-contoh-kasus-algoritma-yang-memiliki-struktur-runtutan-%e2%80%8b">
+                            26. Jelaskan dengan contoh kasus algoritma yang memiliki struktur runtutan ! ​</h2><br />
+                        <p>Jawaban: </p><p>contoh struktur kasus if percabangan</p><p></p><p>menentukan grade nilai</p><p>80-100 = A</p><p>70-79 = B</p><p>60-69 = C</p><p>40-59 = D</p><p>0-39 = E</p><p></p><p>Penjelasan:</p><p></p><p>if nilai &gt;=80 and nilai &lt;=100 then</p><p>    grade = A</p><p>else</p><p>    if nilai &gt;=70 and nilai &lt;80 then</p><p>         grade = B</p><p>    else              </p><p>         if nilai &gt;=60 and nilai &lt;70 then</p><p>              grade = C</p><p>         else</p><p>              if nilai &gt;=40 and nilai &lt;60 then</p><p>                   grade = D</p><p>            else</p><p>                   grade = E</p><p>If (jika) </p><p>semoga membantu</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-makalah-tentang-logika-dan-algoritma%e2%80%8b">
+                            27. buatlah makalah tentang logika dan algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>di harapkan membuka google ya kk:')</p><br />
+                                            <h2 class="ez-toc-section" id="berkan-contoh-algoritma-dengan-struktur-yang-lengkap">
+                            28. berkan contoh algoritma dengan struktur yang lengkap</h2><br />
+                        1. Menampilkan Bilangan Ganjil Diantara 10 sampai 30. Bilangan ganjil yang terletak diantara 10 dan 30 : 11,13,15, dan seterusnya. Namun, yang akan ditampilkan kecuali bilangan 21 dan 27. Jadi output yang diharapkan dari algoritma tersebut adalah bilangan ganjil 10 sampai 30 kecuali bilangan 21 dan 27. <br /><br />(jadikan jawaban terbaik yakk)<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-dengan-contoh-tentang-kasus-algoritma-yang-memiliki-struktur-runtunan">
+                            29. Jelaskan dengan contoh tentang kasus algoritma yang memiliki struktur runtunan</h2><br />
+                        <p>Jawaban:brainly</p><p>C</p><p></p><p></p><p>ontoh struktur kasus runtung</p><p></p><p>menentukan grade nilai</p><p></p><p>80-100 = A</p><p></p><p>70-79 = B</p><p></p><p>60-69 = C</p><p></p><p>40-59 = D</p><p></p><p>0-39 = E</p><p></p><p>Penjelasan:</p><p></p><p>if nilai &gt;=80 and nilai &lt;=100 then</p><p></p><p>    grade = A</p><p></p><p>else</p><p></p><p>    if nilai &gt;=70 and nilai &lt;80 then</p><p></p><p>         grade = B</p><p></p><p>    else              </p><p></p><p>         if nilai &gt;=60 and nilai &lt;70 then</p><p></p><p>              grade = C</p><p></p><p>         else</p><p></p><p>              if nilai &gt;=40 and nilai &lt;60 then</p><p></p><p>                   grade = D</p><p></p><p>              else</p><p></p><p>                   grade = E</p><p></p><p>semoga membant</p><p></p><p>Penjelasan:</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan3-struktur-algoritma-dan-jelaskan-beserta-contohnya">
+                            30. sebutkan3 struktur algoritma dan jelaskan beserta contohnya</h2><br />
+                        1. Struktur Sekuensial (runtutan)<br />terdiri dari satu atau lebih instruksi, yang setiap instruksinya dikerjakan secara berurutan sesuai dengan urutan penulisan algoritma tersebut.<br />2. Struktur pemilihan (selection) <br />menyatakan pemilihan langkah yang didasarkan oleh suatu kondisi atau pengambilan suatu keputusan. <br />3. Struktur Perulangan<br />suatu perintah atau tindakkan yang dilakukan beberapa kali. 
+Contoh : no.3 Misalnya jika teman mau menuliskan kata “Belajar C” sebanyak sepuluh kali. akan lebih efisien jika teman menggunakan sturktur ini dari pada sekedar menuliskannya berturut-turut sebanyak sepuluh kali.
+<br />
+                                            <h2 class="ez-toc-section" id="perhatikan-algoritma-berikut-tipe-data-yang-cocok-untuk-ekspresi-hari-pada-struktur-case-adalah-%c2%a0%e2%80%8b">
+                            31. Perhatikan algoritma berikut. Tipe data yang cocok untuk ekspresi hari pada struktur case adalah ..... *​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>untuk ekspresi hari, kita bisa menggunakan tipe data <strong>s</strong><strong>t</strong><strong>r</strong><strong>i</strong><strong>n</strong><strong>g</strong></p><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-mendeklrasikan-pada-struktur-algoritma-yang-terdiri-dari-bagian-kepala-deklarasi-dan-bagian-algoritma">
+                            32. Berikan contoh mendeklrasikan pada struktur algoritma yang terdiri dari bagian kepala, deklarasi, dan bagian algoritma</h2><br />
+                        [Kepala]<br />Program Contoh_Struktur_Algoritma<br /><br />[Deklarasi]<br />panjang=integer;<br />lebar=integer;<br />luas=real;<br /><br />[Algoritma]<br />input(panjang,lebar)<br />luas&lt;-panjang*lebar<br />output(luas)<br />
+                                            <h2 class="ez-toc-section" id="apa-yang-terlintas-di-pikiranmu-ketika-mendengar-algoritma-dan-struktur-data-uraikan%e2%80%8b">
+                            33. apa yang terlintas di pikiranmu ketika mendengar "algoritma" dan "struktur data", uraikan!​</h2><br />
+                        <p>Algoritma:</p><p>Cara kerja sesuatu menggunakan urutan atau cara kerja yang logis dan berdasarkan logika.</p><p>Struktur data:</p><p>Kumpulan dari data yang dapat dimanipulasi seperti diurutkan, diambil datanya, ditambah, dan dikurang</p><br />
+                                            <h2 class="ez-toc-section" id="berikut-ini-yang-bukan-termasuk-struktur-data-dalam-algoritma%e2%80%8b">
+                            34. Berikut ini yang bukan termasuk Struktur data dalam algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>struktur algoritma</p><p><strong>Penjelasan:</strong></p><p>maaf salah jawaban </p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-dengan-contoh-tentang-kasus-algoritma-yang-memiliki-struktur-runtunan%e2%80%8b">
+                            35.  jelaskan dengan contoh tentang kasus algoritma yang memiliki struktur runtunan​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>contoh struktur kasus if percabangan</p><p></p><p>menentukan grade nilai</p><p></p><p>80-100 = A</p><p></p><p>70-79 = B</p><p></p><p>60-69 = C</p><p></p><p>40-59 = D</p><p></p><p>0-39 = E</p><p></p><p>Penjelasan:</p><p></p><p>if nilai &gt;=80 and nilai &lt;=100 then</p><p></p><p>    grade = A</p><p></p><p>else</p><p></p><p>    if nilai &gt;=70 and nilai &lt;80 then</p><p></p><p>         grade = B</p><p></p><p>    else              </p><p></p><p>         if nilai &gt;=60 and nilai &lt;70 then</p><p></p><p>              grade = C</p><p></p><p>         else</p><p></p><p>              if nilai &gt;=40 and nilai &lt;60 then</p><p></p><p>                   grade = D</p><p></p><p>              else</p><p></p><p>                   grade = E</p><p></p><p>        </p><p><strong>Penjelasan:</strong></p><p>smg membantu:)</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-contoh-penggunaan-variabel-dan-tipe-data-dalam-algoritma">
+                            36. Sebutkan contoh penggunaan variabel dan tipe data dalam algoritma!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Tipe data adalah suatu kelompok yang mempunyai jenis-jenis tertentu. Dengan kata lain, tipe data adalah sebuah cara yang digunakan untuk menentukan jenis suatu data tersebut, kata lain dari hal ini ialah "deklarasi variabel". Dalam bahasa pemrograman mempunyai banyak jenis-jenis tipe data yang bisa digunakan. Namun setiap bahasa pemrograman mempunyai tipe data yang mungkin tidak ada di bahasa pemrograman lain. Namun secara umum, dalam bahasa pemrograman apapun mengenal 5 tipe data ini, yaitu integer, float, char, string, dan boolean. Masing masing tipe data ini mempunyai kegunaan masing-masing. Oleh karena itu, jika pada saat pengolahan data yang terdapat data yang mempunyai tipe data berbeda, maka harus dilakukan konversi terlebih dahulu. Berikut adalah penjelasan dari keempat tipe data.
+</p><p>
+</p><p>Integer, tipe data integer ini digunakan untuk mendeklarasikan data/variable sebagai bilangan bulat. Misalkan nilai 10, 7,29,100, adn 22. Penggunaan tipe data integer biasanya digunakan untuk data yang akan dilakukan pengoprasian penjumlahan, pengurangan, pembagian, atau perkalian.
+</p><p>Float, seperti halnya integer, tipe data ini digunakan untuk data angka, namun untuk angka/nilai yang berupa pecahan. Jadi apabila ingin mendapatkan hasil yang terbaik pada suatu proses pengoprasian angka, maka kita bisa menggunakan tipe data float. Contohnya nilai 1.5, 3.5, 3.14, dan lain bilangan pecahan lainnya.
+</p><p>Char, char adalah tipe data yang digunakan untuk deklarasi variable berupa karakter. Karakter tersebut bisa berupa simbol, alfabet, atau angka.
+</p><p>String, khusus untuk string, tipe data yang digunakan untuk mendeklarasikan data yang berisi kalimat atau kata.
+</p><p>Boolean, tipe data ini sangat berbeda dengan yang lainnya. Karena tipe data boolean ini hanya digunakan untuk data yang mempunyai 2 nilai saja, yaitu true atau false.
+</p><p>
+</p><p>
+</p><p></p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-yang-menggunakan-konstruksi-perulangan-yang-terkadang-memiliki-data-tambahan-pada-struktur-yang-dibuat-disebut-algoritma%e2%80%8b">
+                            37. algoritma yang menggunakan konstruksi perulangan yang terkadang memiliki data tambahan pada struktur yang dibuat disebut algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>jawabannya adalah <strong>algoritma iteratif</strong></p><p><strong>Penjelasan:</strong></p><p>maaf kalau salah, kalau benar jadikan jawaban terbaik ya</p><br />
+                                            <h2 class="ez-toc-section" id="mengatur-rangkaian-pekerjaan-agar-efektif-dan-efisien-merupakan-contoh-dari-berpikir-komputasional-yaitu-a-optimasi-penjadwalan-b-algoritma-c-struktur-data-d-representasi-data%e2%80%8b">
+                            38. Mengatur rangkaian pekerjaan agar efektif dan efisien merupakan contoh dari berpikir komputasional yaitu... a. Optimasi penjadwalan b. Algoritma c. Struktur data d. Representasi data​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>B. Algoritma</p><p></p><p></p><p></p><p> g</p><p></p><p></p><p></p><p><strong>Penjelasan:</strong></p><p>merupakan sekumpulan instruksi atau langkah-langkah yang dituliskan secara sistematis dan digunakan untuk menyelesaikan masalah / persoalan logika </p><br />
+                                            <h2 class="ez-toc-section" id="buat-lah-contoh-algoritma-lalu-tentukan-variabel-dan-tipe-datanya%e2%80%8b">
+                            39. Buat lah contoh algoritma, lalu tentukan variabel dan tipe datanya​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Dengan Java:</p><p></p><p></p><p>public class Main {</p><p>	public static void main(String[] args) {</p><p>		//program menampilkan bilangan ganjil dari 1- 10, </p><p>		/*</p><p>	jumlah variabel yang digunakan:</p><p>	1</p><p>	nama variabel:</p><p>	"x" bertipe integer.</p><p>	</p><p>	penjelasan singkat algoritma kode java:</p><p>	1.lakukan perulangan for, dari 1 - 10 </p><p>	2.ketika nilai x mod 2 bersisa satu maka print x (dalam percabangan if ini akan menampilkan bilangan ganjil nya.)</p><p>	3.looping selesai.</p><p>	4.program selesai.</p><p>		*/</p><p>		for(int x = 1; x &lt;= 10; x++){</p><p>			if(x % 2 == 1){</p><p>				System.out.println(x);</p><p>			}</p><p>		}</p><p>	}</p><p>}</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengenalan-variabel-dan-tipe-data-dasar-struktur-algoritma">
+                            40. Jelaskan pengenalan variabel dan tipe data dasar struktur algoritma</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Tipe data dasar :</p>Bilangan bulat (Byte, Short, Integer, Long)Bilangan pecahan (Float, Double)Karakter (Char)Boolean (True, False)<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/oz9cEqFynHU?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-kesimpulan-makalah-tentang-biji-bijian.html">Contoh Kesimpulan Makalah Tentang Biji bijian</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-pendahuluan-artikel-energi-cahaya.html">Contoh Pendahuluan Artikel Energi Cahaya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-makalah-standar-pelayanan-minimal.html">Contoh Makalah Standar Pelayanan Minimal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-pendahuluan-makalah-rekam-medik.html">Contoh Pendahuluan Makalah Rekam Medik</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-kti-makalah-tenaga-administrasi-dalam-pengelola-data-sistem-pembelajaran.html">Contoh Kti Makalah Tenaga Administrasi Dalam Pengelola Data Sistem Pembelajaran</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-latar-belakang-pembahasan-dan-kesimpulan-makalah.html">Contoh Latar Belakang Pembahasan Dan Kesimpulan Makalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-pendahuluan-makalah-seni-budaya.html">Contoh Pendahuluan Makalah Seni Budaya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-makalah-impor-daging-sapi.html">Contoh Makalah Impor Daging Sapi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-kata-pengantar-di-makalah-agama-islam.html">Contoh Kata Pengantar Di Makalah Agama Islam</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-pendahuluan-makalah-pendidikan.html">Contoh Pendahuluan Makalah Pendidikan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-makalah-kapstok-kayu-seni-budaya.html">Contoh Makalah Kapstok Kayu Seni Budaya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-makalah-masalah-kesehatan.html">Contoh Makalah Masalah Kesehatan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-makalah-kesehatan-lingkungan-pemukiman.html">Contoh Makalah Kesehatan Lingkungan Pemukiman</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-kata-pengantar-skripso.html">Contoh Kata Pengantar Skripso</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-kata-pengantar-laporan-hasil-penelitian.html">Contoh Kata Pengantar Laporan Hasil Penelitian</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-makalah-bisnis-intelegen.html">Contoh Makalah Bisnis Intelegen</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-kata-pengantar-usaha-bakwan-goreng.html">Contoh Kata Pengantar Usaha Bakwan Goreng</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-isi-makalah-organ-tubuh-manusia-beserta-fungsinya.html">Contoh Isi Makalah Organ Tubuh Manusia Beserta Fungsinya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/paragraf-makalah-yang-benar.html">Paragraf Makalah Yang Benar</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiguru.github.io/contoh-laporan-makalah-bab-4-tentang-mesin-cuci.html">Contoh Laporan Makalah Bab 4 Tentang Mesin Cuci</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://skripsiguru.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://skripsiguru.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://skripsiguru.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://skripsiguru.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://skripsiguru.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
